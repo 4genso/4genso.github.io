@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(20, 20, 20);
+  font-family: "Inter";
+}
+
+#root {
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  #root {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+h1 {
+  font-family: "Noto Serif";
+}
+
+h2 {
+  font-family: "Noto Serif";
+}
+
+nav {
+  color: rgb(200, 200, 200);
+  font-family: "Noto Serif";
+}
+
+#footer {
+  color: rgb(200, 200, 200);
+  font-family: "Yellowtail";
+}
+
+#contacts {
+  color: rgb(200, 200, 200);
+}
