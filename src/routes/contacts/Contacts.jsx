@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import GithubIcon from "../../assets/github-mark.svg";
 import EmailIcon from "../../assets/email.svg";
 import LinkedinIcon from "../../assets/linkedin.png";
@@ -5,6 +6,9 @@ import LinkedinIcon from "../../assets/linkedin.png";
 function Contacts() {
   return (
     <>
+      <Helmet>
+        <title>Contacts | Justin's Portfolio</title>
+      </Helmet>
       <main
         id="contacts"
         className="flex flex-col flex-1 text-center items-center justify-center"

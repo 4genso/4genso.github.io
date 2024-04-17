@@ -1,11 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import GithubIcon from "../../assets/github-mark.svg";
 
 function Projects() {
   return (
     <>
-      <main className="flex flex-col flex-1 text-center items-center justify-center p-10">
+      <Helmet>
+        <title>Projects | Justin's Portfolio</title>
+      </Helmet>
+      <main className="flex flex-col flex-1 text-center items-center justify-center p-8">
         <ProjectCard
           projectName={"B2B file transfer Web App (In Development)"}
           techStack={"TypeScript, WebRTC, PostgreSQL"}
